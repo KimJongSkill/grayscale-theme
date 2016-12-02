@@ -249,7 +249,8 @@ a:focus {
 }
 
 .content-section {
-    margin: 15vh 0px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
 }
 
 .btn {
