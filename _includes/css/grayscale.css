@@ -340,7 +340,10 @@ body {
 }
 
 .image-section {
-    width: 100%;
-    padding: 100px 0;
-    color: #fff;
+    min-height: 40vh;
+    width: 100vw;
+    margin: 10vh 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
