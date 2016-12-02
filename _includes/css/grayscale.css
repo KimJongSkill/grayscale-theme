@@ -249,13 +249,7 @@ a:focus {
 }
 
 .content-section {
-    margin: 100px 0px;
-}
-
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 200px;
-    }
+    margin: 15vh 0px;
 }
 
 .btn {
@@ -342,7 +336,6 @@ body {
 .image-section {
     min-height: 40vh;
     width: 100vw;
-    margin: 10vh 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
