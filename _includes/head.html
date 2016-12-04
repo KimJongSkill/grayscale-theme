@@ -4,7 +4,15 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="icon" href="{{ site.baseurl }}/img/favicon.png" type="image/png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/img/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/icon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/icon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="{{ site.baseurl }}/img/icon/manifest.json">
+    <link rel="mask-icon" href="{{ site.baseurl }}/img/icon/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/icon/favicon.ico">
+    <meta name="msapplication-config" content="{{ site.baseurl }}/img/icon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
