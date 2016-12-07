@@ -341,3 +341,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.sponsor-logo {
+    max-width: 100%;
+}
