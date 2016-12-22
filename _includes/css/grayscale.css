@@ -337,11 +337,16 @@ body {
 .image-section {
     min-height: 40vmin;
     width: 100%;
+    background-image: url({{ site.baseurl }}/img/{{ site.divider-image }});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.supporter-logo {
+.logo-image {
     max-width: 100%;
+}
+
+.brand-logo {
+    padding-bottom: 5%;
 }
