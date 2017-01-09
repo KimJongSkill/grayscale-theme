@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 83%,rgba(0,0,0,0.4) 90%,rgba(0,0,0,1) 100%), url({{ site.baseurl }}/img/{{ site.background-image }}) no-repeat center center scroll;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 83%,rgba(0,0,0,0.4) 90%,rgba(0,0,0,1) 100%), url({{ site.baseurl }}{{ site.img_generic_path }}{{ site.background-image }}) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -329,7 +329,7 @@ body {
 .image-section {
     min-height: 40vmin;
     width: 100%;
-    background-image: url({{ site.baseurl }}/img/{{ site.divider-image }});
+    background-image: url({{ site.baseurl }}{{ site.img_generic_path }}{{ site.divider-image }});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
