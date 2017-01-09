@@ -5,13 +5,13 @@
     <meta name="description" content="{{ site.description }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/img/icon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/icon/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/icon/favicon-16x16.png" sizes="16x16" />
-    <link rel="manifest" href="{{ site.baseurl }}/img/icon/manifest.json" />
-    <link rel="mask-icon" href="{{ site.baseurl }}/img/icon/safari-pinned-tab.svg" color="#000000" />
-    <link rel="shortcut icon" href="{{ site.baseurl }}/img/icon/favicon.ico" />
-    <meta name="msapplication-config" content="{{ site.baseurl }}/img/icon/browserconfig.xml" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}{{ site.icon_path }}/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}{{ site.icon_path }}/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}{{ site.icon_path }}/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="{{ site.baseurl }}{{ site.icon_path }}/manifest.json" />
+    <link rel="mask-icon" href="{{ site.baseurl }}{{ site.icon_path }}/safari-pinned-tab.svg" color="#000000" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}{{ site.icon_path }}/favicon.ico" />
+    <meta name="msapplication-config" content="{{ site.baseurl }}{{ site.icon_path }}/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
