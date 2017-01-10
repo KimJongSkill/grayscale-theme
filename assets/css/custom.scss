@@ -1,0 +1,14 @@
+---
+# Front matter to ensure that Jekyll reads this file
+---
+
+// Import Jekyll variables (Liquid is not available in partials)
+$color-primary: {{ site.color.primary-dark }};
+$color-links: {{ site.color.links }};
+
+$path-image-generic: "{{ site.baseurl }}{{ site.img_generic_path }}";
+
+$image-background: "{{ site.background-image }}";
+$image-divider: "{{ site.divider-image }}";
+
+@import "grayscale";
