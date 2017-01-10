@@ -11,4 +11,7 @@ $path-image-generic: "{{ site.baseurl }}{{ site.img_generic_path }}";
 $image-background: "{{ site.background-image }}";
 $image-divider: "{{ site.divider-image }}";
 
+$font-body: 'Raleway', sans-serif;
+$font-headings: 'Montserrat', sans-serif;
+
 @import "grayscale";
