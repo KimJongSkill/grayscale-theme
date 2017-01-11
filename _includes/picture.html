@@ -1,0 +1,5 @@
+<picture>
+    <source srcset="{{ site.baseurl }}{{ site.img_webp_path }}/{{ include.name | replace_first: "jpg", "webp" | replace_first: "png", "webp" }}" type="image/webp">
+    <source srcset="{{ site.baseurl }}{{ site.img_generic_path }}/{{ include.name }}" type="image/{{ include.name | slice: -3, 3 }}">
+    <img class="{{ include.class }}" src="{{ site.baseurl }}{{ site.img_generic_path }}/{{ include.name }}">
+</picture>

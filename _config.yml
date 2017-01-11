@@ -8,6 +8,7 @@ description: "The end has come to the unnecessary stressing and worrying. Multip
 css_path: /assets/css
 js_path: /assets/js
 img_generic_path: /assets/img/generic
+img_webp_path: /assets/img/webp
 icon_path: /assets/img/icon
 
 # Variable images
