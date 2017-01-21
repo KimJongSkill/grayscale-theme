@@ -5,7 +5,7 @@
     <meta name="description" content="{{ site.description }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com/ajax/libs/ ssl.google-analytics.com/ga.js; img-src 'self'; style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com/ajax/libs/ fonts.googleapis.com/css; frame-src *.facebook.com/plugins/video.php; font-src cdnjs.cloudflare.com/ajax/libs/ fonts.gstatic.com/s/; block-all-mixed-content" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com/ajax/libs/ ssl.google-analytics.com/ga.js; img-src 'self' ssl.google-analytics.com/__utm.gif; style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com/ajax/libs/ fonts.googleapis.com/css; frame-src *.facebook.com/plugins/video.php; font-src cdnjs.cloudflare.com/ajax/libs/ fonts.gstatic.com/s/; block-all-mixed-content" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}{{ site.icon_path }}/apple-touch-icon.png" />
     <link rel="icon" type="image/png" href="{{ site.baseurl }}{{ site.icon_path }}/favicon-32x32.png" sizes="32x32" />
